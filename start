@@ -2,9 +2,9 @@
 set -e
 
 # setting so uneditable markdown cells can't be un-rendered in notebooks
-sudo mkdir -p ${CONDA_PREFIX}/share/jupyter/lab/settings
+mkdir -p ${CONDA_PREFIX}/share/jupyter/lab/settings
 
-sudo echo '
+echo '
 {
     "@jupyterlab/notebook-extension:tracker": {
         "showEditorForReadOnlyMarkdown" : false}
