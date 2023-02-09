@@ -10,3 +10,5 @@ echo '
         "showEditorForReadOnlyMarkdown" : false}
 }
 ' > ${CONDA_PREFIX}/share/jupyter/lab/settings/overrides.json
+
+exec "$@"
